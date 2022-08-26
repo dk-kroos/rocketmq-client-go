@@ -20,6 +20,7 @@ package internal
 import (
 	"context"
 	"github.com/dk-kroos/rocketmq-client-go/errors"
+	. "github.com/smartystreets/goconvey/convey"
 	"sync"
 	"testing"
 
