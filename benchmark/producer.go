@@ -20,10 +20,9 @@ package main
 import (
 	"context"
 	"flag"
-	"github.com/apache/rocketmq-client-go/v2"
-	"github.com/apache/rocketmq-client-go/v2/primitive"
-	"github.com/apache/rocketmq-client-go/v2/producer"
-	"github.com/apache/rocketmq-client-go/v2/rlog"
+	"github.com/dk-kroos/rocketmq-client-go/primitive"
+	"github.com/dk-kroos/rocketmq-client-go/producer"
+	"github.com/dk-kroos/rocketmq-client-go/rlog"
 	"os"
 	"os/signal"
 	"sync"

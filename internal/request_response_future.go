@@ -23,11 +23,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/patrickmn/go-cache"
 	"github.com/pkg/errors"
 
-	"github.com/apache/rocketmq-client-go/v2/primitive"
-	"github.com/apache/rocketmq-client-go/v2/rlog"
+	"github.com/dk-kroos/rocketmq-client-go/primitive"
+	"github.com/dk-kroos/rocketmq-client-go/rlog"
 )
 
 var RequestResponseFutureMap = NewRequestResponseFutureMap()

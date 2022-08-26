@@ -29,12 +29,12 @@ import (
 	"github.com/pkg/errors"
 	uuid "github.com/satori/go.uuid"
 
-	errors2 "github.com/apache/rocketmq-client-go/v2/errors"
-	"github.com/apache/rocketmq-client-go/v2/internal"
-	"github.com/apache/rocketmq-client-go/v2/internal/remote"
-	"github.com/apache/rocketmq-client-go/v2/internal/utils"
-	"github.com/apache/rocketmq-client-go/v2/primitive"
-	"github.com/apache/rocketmq-client-go/v2/rlog"
+	errors2 "github.com/dk-kroos/rocketmq-client-go/errors"
+	"github.com/dk-kroos/rocketmq-client-go/internal"
+	"github.com/dk-kroos/rocketmq-client-go/internal/remote"
+	"github.com/dk-kroos/rocketmq-client-go/internal/utils"
+	"github.com/dk-kroos/rocketmq-client-go/primitive"
+	"github.com/dk-kroos/rocketmq-client-go/rlog"
 )
 
 type defaultProducer struct {

@@ -24,12 +24,10 @@ import (
 	_ "net/http/pprof"
 	"time"
 
-	"github.com/apache/rocketmq-client-go/v2"
+	"github.com/dk-kroos/rocketmq-client-go/rlog"
 
-	"github.com/apache/rocketmq-client-go/v2/rlog"
-
-	"github.com/apache/rocketmq-client-go/v2/consumer"
-	"github.com/apache/rocketmq-client-go/v2/primitive"
+	"github.com/dk-kroos/rocketmq-client-go/consumer"
+	"github.com/dk-kroos/rocketmq-client-go/primitive"
 )
 
 const (
